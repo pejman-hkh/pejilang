@@ -28,6 +28,10 @@ print( tst.a );
 
 print( sizeof( test ) );
 
+String.fn.json = ( str ) {
+  //do json function on string ...
+}
+
 var j = '{"test":"test1"}'.json();
 print( j["test"] );
 
