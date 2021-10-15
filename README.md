@@ -34,6 +34,14 @@ c.a();
 var d = { test : [1,2,3,4,"test"] };
 print( d.count() );
 
+var f = ( a, b ) {
+  a();
+}
+f(() {
+
+}, 10);
+
+
 if( a ) {
 }
 
