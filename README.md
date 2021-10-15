@@ -42,6 +42,12 @@ test(a,b) {
 
 }
 
+fn test1() {
+}
+
+int fn test2( int a ) {
+
+}
 
 class test {
   a() {
