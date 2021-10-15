@@ -12,6 +12,26 @@ vars s2 = 'test';
 s.print();
 print( s );
 
+//another type
+int a = 10;
+char t = "text";
+long a = 10;
+
+typedef struct {
+  int a;
+  char b;
+} test;
+
+
+test tst;
+print( tst.a );
+
+print( sizeof( test ) );
+
+var j = '{"test":"test1"}'.json();
+print( j["test"] );
+
+
 
 var a = 10;
 test(a,b) {
