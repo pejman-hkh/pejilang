@@ -55,8 +55,12 @@ class test {
   
   b() {
   }
+  
+  static c() {
+  }
 }
 
+test::c();
 
 var c = new test;
 c.a();
