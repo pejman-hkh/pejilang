@@ -3,6 +3,12 @@
 ```
 var s = "test string"+"test concat";
 
+var s1 = "test
+multi
+line";
+
+vars s2 = 'test';
+
 s.print();
 print( s );
 
